@@ -196,6 +196,7 @@ header{
 }
 
 /* Tablet View */
+
 @media (min-width: 768px) {
   .logo img { 
     width: 80px; height: 80px;
@@ -223,6 +224,13 @@ header{
     flex-direction: row;
     justify-content: space-between;
     padding: 1.5rem 5rem 1.5rem 2rem;
+  }
+
+}
+
+@media (max-width: 1023px) {
+  .hero-more {
+    display: none;
   }
 }
 
