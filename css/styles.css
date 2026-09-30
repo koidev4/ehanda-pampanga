@@ -20,7 +20,7 @@ body {
 header{
   display: flex;
   flex-direction: column;
-  align-items: left;
+  align-items: center;
   gap: 1.25rem;
   padding: 1rem 1rem 1.25rem;
 }
@@ -127,7 +127,7 @@ header{
   font-size: 2rem;
   font-weight: 400;
   text-transform: uppercase;
-  margin: 0 0 0 0.5rem; 
+  margin: 0 0 0.5rem; 
   color: var(--blue);
 }
 
@@ -153,9 +153,10 @@ header{
   padding: 0.5rem 2rem;
 }
 
-.btn:hover, .btn:focus-visible {
+.button:hover, .button:focus-visible {
   background: #0857b0;
 }
+
 /* media for other styles */
 @media (min-width: 768px) {
   .hero-image { 
@@ -181,8 +182,8 @@ header{
   .hero-image {
     min-height: 380px;
     padding: 2rem 4rem;
-    -webkit-mask-image: linear-gradient(90deg, #000 85%, transparent);
-    mask-image: linear-gradient(90deg, #000 85%, transparent);
+    -webkit-mask-image: linear-gradient(90deg, #000 65%, transparent);
+    mask-image: linear-gradient(90deg, #000 65%, transparent);
   }
 
   .hero-tagline { 
@@ -225,8 +226,118 @@ header{
     justify-content: space-between;
     padding: 1.5rem 5rem 1.5rem 2rem;
   }
+  .nav {
+    gap: 1rem;
+    flex-wrap: nowrap;
+}
+
+  .nav-link {
+    font-size: 1rem;
+    padding: 0.4rem 1.1rem;
+  }
 
 }
+
+/* What is eHanda section*/
+.what-is-eHanda {
+  padding: 1.5rem 0;
+}
+
+.section-title {
+  font-family: 'Anton', sans-serif;
+  color: var(--blue);
+  font-weight: 400;
+  font-size: 2rem;
+  margin: 1rem 1rem 0 1rem;
+}
+
+.what-is-eHanda p {
+  margin: 1rem 1rem;
+  max-width: 95ch;
+  font-size: 1rem;
+  line-height: 1.5;
+}
+
+.what-is-eHanda a:not(.button) {
+  color: var(--blue);
+  font-weight: bold;
+}
+
+.tip {
+  border-left: 4px solid var(--blue);
+  border-radius: 10px;
+  background: #d9d9d9;
+  margin: 1.5rem 1rem;
+  max-width: 90ch;
+  padding: 0.3rem;
+  box-shadow: 0 3px 5px rgba(0, 0, 0, 0.25);
+}
+
+.what-is-content .button {
+  margin: 0 1rem;
+}
+
+.contact-drrmo {
+  font-style: normal;
+  line-height: 1.5;
+  font-size: 0.95rem;
+  margin-top: 2rem;
+  margin-left: 1rem;
+}
+
+.contact-drrmo {
+  display: block;
+}
+
+
+@media (min-width: 768px) {
+  .section-title {
+    font-size: 2.5rem;
+  }
+  .what-is-eHanda {
+  padding: 1.5rem 1rem;
+}
+}
+
+@media (min-width: 1024px) {
+  .what-is-eHanda {
+  padding: 1.5rem 1rem 1.5rem 3rem;
+}
+  .what-is-body {
+  display: grid;
+  grid-template-columns: minmax(0, 100ch) 320px;
+  gap: 2rem;
+  align-items: start;
+  }
+  .contact-drrmo {
+    margin: 1rem 0 0;
+    padding-left: 0.5rem;
+  }
+}
+
+
+/* Footer */
+.footer {
+  color: var(--text);
+  margin-top: 5rem;
+  padding: 1.5rem 1rem;
+  text-align: center;
+  font-size: 0.8rem;
+  line-height: 1.6;
+  background-color: #d9d9d9;
+}
+
+.footer p {
+  margin: 0;
+}
+
+@media (min-width: 768px) {
+  .footer {
+    font-size: 0.95rem;
+  }
+}
+
+
 
 @media (max-width: 1023px) {
   .hero-more {
