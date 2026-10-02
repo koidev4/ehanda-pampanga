@@ -1,0 +1,114 @@
+Municipalties Content
+
+- INTRO
+All 22 cities and municipalities of Pampanga, grouped by congressional district. Tap your locality to see its evacuation centers, contacts, and local flood-risk note. For general hazard guidance (typhoon, earthquake, flood, fire), see the Hazard Guides page.
+
+- DISTRICT 1 (blue)
+ANGELES CITY
+Note: Highly urbanized city, administered independently of the province but included here for regional coverage.
+Evacuation Centers (Sample)
+  Center/Location                      Est. Capacity    Contact
+  Brgy. Sta Teresita Covered Court     ~250 people      Brgy. Hall or Captain
+  Brgy. San Jose Covered Court         ~250 people      Brgy. Hall or Captain
+  Brgy. Pulungbulu                     ~250 people      Brgy. Hall or Captain
+
+MABALACAT CITY
+Note: Upland barangays remain affected by lahar-related sediment from Mt. Pinatubo.
+Evacuation Centers (Sample)
+  Center/Location                      Est. Capacity    Contact
+  Brgy. Dau Covered Court              ~250 people      Brgy. Hall or Captain
+  Brgy. Duquit Covered Court           ~250 people      Brgy. Hall or Captain
+  Brgy. Mabiga Covered Court           ~250 people      Brgy. Hall or Captain
+
+MAGALANG
+Note: Low-lying barangays along the Pasig-Potrero River are flood- and lahar-prone.
+Evacuation Centers (Sample)
+  Center/Location                      Est. Capacity    Contact
+  Brgy. Sta. Lucia Covered Court       ~250 people      Brgy. Hall or Captain
+  Brgy. San Roque Covered Court        ~250 people      Brgy. Hall or Captain
+  Brgy. San Isidro Covered Court       ~250 people      Brgy. Hall or Captain
+
+
+
+- DISTRICT 2 (green)
+PORAC
+Note: Upland and lowland barangays both affected by lahar and flash-flood risk.
+Evacuation Centers (Sample)
+  Center/Location                          Est. Capacity    Contact
+  Brgy. Paralaya Covered Court             ~250 people      Brgy. Hall or Captain
+  Brgy. Manibaug Libutad Covered Court     ~250 people      Brgy. Hall or Captain
+  Brgy. Jose Songco Lapid Sports Center    ~250 people      Brgy. Hall or Captain
+
+LUBAO
+Note: Low-elevation, river-delta municipality with recurring flood events.
+Evacuation Centers (Sample)
+  Center/Location                      Est. Capacity    Contact
+  Brgy. Lourdes Covered Court          ~250 people      Brgy. Hall or Captain
+  Brgy. Sto. Nino Covered Court        ~250 people      Brgy. Hall or Captain
+  Brgy. Poblacion Court                ~250 people      Brgy. Hall or Captain
+
+FLORIDABLANCA
+Note: Low-lying barangays along the Pasig-Potrero River are flood- and lahar-prone.
+Evacuation Centers (Sample)
+  Center/Location                      Est. Capacity    Contact
+  Brgy. Basa Air Base                  ~250 people      Brgy. Hall or Captain
+  Brgy. Cabangcalan Covered Court      ~250 people      Brgy. Hall or Captain
+  Brgy. Consuelo                       ~250 people      Brgy. Hall or Captain
+
+
+
+- DISTRICT 3 (yellow)
+CITY OF SAN FERNANDO
+Note: Provincial capital. Several low-lying barangays are subject to seasonal flooding.
+Evacuation Centers (Sample)
+  Center/Location                      Est. Capacity    Contact
+  Brgy. Panipuan Covered Court         ~250 people      Brgy. Hall or Captain
+  Brgy. Sindalan Covered Court         ~250 people      Brgy. Hall or Captain
+  Brgy. Delta Sports Center            ~250 people      Brgy. Hall or Captain
+
+ARAYAT
+Note: River-adjacent barangays flood seasonally and upland barangays face landslide risk near Mt. Arayat. Flood-prone locality.
+Evacuation Centers (Sample)
+  Center/Location                      Est. Capacity    Contact
+  Brgy. Turu Covered Court             ~250 people      Brgy. Hall or Captain
+  Brgy. Cupang Covered Court           ~250 people      Brgy. Hall or Captain
+  Brgy. Telapayong Covered Court       ~250 people      Brgy. Hall or Captain
+
+MEXICO
+Note: Faces frequent severe flooding and infrastructure damage during the rainy season.
+Evacuation Centers (Sample)
+  Center/Location                      Est. Capacity    Contact
+  Brgy. Buenavista Covered Court       ~250 people      Brgy. Hall or Captain
+  Brgy. Camuning Covered Court         ~250 people      Brgy. Hall or Captain
+  Brgy. Cawayan Court                  ~250 people      Brgy. Hall or Captain
+
+
+
+- DISTRICT 4 (red)
+APALIT
+Note: River-delta town along the Pampanga River, prone to seasonal flooding.
+Evacuation Centers (Sample)
+  Center/Location                      Est. Capacity    Contact
+  Brgy. Balucuc Covered Court          ~250 people      Brgy. Hall or Captain
+  Brgy. Capangalan Covered Court       ~250 people      Brgy. Hall or Captain
+  Brgy. Tabuyuc Covered Court          ~250 people      Brgy. Hall or Captain
+
+CANDABA
+Note: River-adjacent barangays flood seasonally and upland barangays face landslide risk near Mt. Arayat. Flood-prone locality.
+Evacuation Centers (Sample)
+  Center/Location                          Est. Capacity    Contact
+  Brgy. Bambang Covered Court              ~250 people      Brgy. Hall or Captain
+  Brgy. Cuayang Bugtong Covered Court      ~250 people      Brgy. Hall or Captain
+  Brgy. Pescadores Covered Court           ~250 people      Brgy. Hall or Captain
+
+MACABEBE
+Note: Faces frequent severe flooding and infrastructure damage during the rainy season.
+Evacuation Centers (Sample)
+  Center/Location                      Est. Capacity    Contact
+  Brgy. Batasan Covered Court          ~250 people      Brgy. Hall or Captain
+  Brgy. San Esteban Covered Court      ~250 people      Brgy. Hall or Captain
+  Brgy. Telacsan Covered Court         ~250 people      Brgy. Hall or Captain
+
+
+
+
