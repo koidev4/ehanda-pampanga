@@ -346,6 +346,63 @@ header{
 }
 
 
+/* municipalites styles */
+.district-title {
+  cursor: pointer;
+  list-style: none;
+  margin: 1rem;
+  padding: 0.5rem 1rem;
+  color: var(--blue);
+  font-family: 'Anton', sans-serif;
+  font-size: 1.5rem;
+}
+
+.district-content {
+  padding: 0.5rem 1rem;
+}
+
+.district { 
+  margin-bottom: 1rem; 
+}
+
+.city {
+  margin-left: 1.5rem;
+  margin-bottom: 1rem;
+  padding: 1rem;
+  color: var(--blue);
+  font-family: 'Anton', sans-serif;
+}
+
+.city-description {
+  margin: 0.5rem;
+  margin-left: 1rem;
+  color: var(--text);
+  padding-left: 5rem;
+  font-size: 1rem;
+  line-height: 1.5;
+}
+
+.evac {
+  padding-left: 1rem;
+  margin-left: 2rem;
+  color: grey;
+}
+
+.section-title-municipalities {
+  font-family: 'Anton', sans-serif;
+  color: var(--text);
+  font-weight: 400;
+  font-size: 2rem;
+  margin: 1rem 1rem 0 1rem;
+}
+
+.municipalities-description {
+  margin: 0.5rem 1rem;
+  font-size: 1rem;
+  line-height: 1.5;
+}
+
+
 /* Advisory  bars/status */
 
 .advisory {
