@@ -347,60 +347,150 @@ header{
 
 
 /* municipalites styles */
-.district-title {
-  cursor: pointer;
-  list-style: none;
-  margin: 1rem;
-  padding: 0.5rem 1rem;
-  color: var(--blue);
-  font-family: 'Anton', sans-serif;
-  font-size: 1.5rem;
-}
-
-.district-content {
-  padding: 0.5rem 1rem;
-}
-
-.district { 
-  margin-bottom: 1rem; 
-}
-
-.city {
-  margin-left: 1.5rem;
-  margin-bottom: 1rem;
-  padding: 1rem;
-  color: var(--blue);
-  font-family: 'Anton', sans-serif;
-}
-
-.city-description {
-  margin: 0.5rem;
-  margin-left: 1rem;
-  color: var(--text);
-  padding-left: 5rem;
-  font-size: 1rem;
-  line-height: 1.5;
-}
-
-.evac {
-  padding-left: 1rem;
-  margin-left: 2rem;
-  color: grey;
-}
 
 .section-title-municipalities {
   font-family: 'Anton', sans-serif;
-  color: var(--text);
   font-weight: 400;
   font-size: 2rem;
-  margin: 1rem 1rem 0 1rem;
+  margin: 1rem 1rem;
 }
 
 .municipalities-description {
-  margin: 0.5rem 1rem;
-  font-size: 1rem;
-  line-height: 1.5;
+  max-width: 100%;
+  line-height: 1rem;
+  margin: 0 1.5rem;
 }
+
+.municipalities-description a {
+  color: var(--blue);
+  font-weight: bold;
+}
+
+.district.d1 { 
+  --accent: #0a74e6; 
+}
+.district.d2 { 
+  --accent: #2e8b1e; 
+}
+.district.d3 { 
+  --accent: #e2c015; 
+}
+.district.d4 { 
+  --accent: #8b1010; 
+}
+
+.district {
+  --accent: var(--blue);
+  margin: 0 1rem;
+}
+
+.district-title {
+  font-family: 'Anton', sans-serif;
+  font-weight: 400;
+  font-size: 1.4rem;
+  color: var(--accent);
+  display: flex;
+  gap: 0.75rem;
+  align-items: center;
+  list-style: none;
+  margin-top: 10px;
+}
+
+.district-content {
+  padding-top: 1rem;
+}
+
+.city {
+  margin: 0 0 1.5rem;
+}
+
+.city h3{
+  font-family: 'Anton' sans-serif;
+  font-weight: 400;
+  font-size: 1.1rem;
+  color: var(--accent);
+  margin: 0 0 0.25rem;
+}
+
+.city-description {
+  position: relative;
+  padding-left: 1.25rem;
+  line-height: 1.5rem;
+  margin: 0 0 0.5rem;
+}
+
+
+.evac {
+  font-family: 'Anton', sans-serif;
+  font-weight: 400;
+  font-size: 1rem;
+  color: grey;
+  margin: 0 0 0.25rem;
+}
+
+.table-wrap {
+  overflow-x: auto;
+
+}
+
+.city table {
+  width: 100%;
+  min-width: 420px;
+  margin-left: 1.25rem;
+  font-size: 0.85rem;
+  table-layout: fixed;
+  margin-left: 1.25rem;
+}
+
+.city th:nth-child(1) {
+  width: 45%;
+
+}
+
+.city th:nth-child(2){
+  width: 25%;
+}
+
+.city th:nth-child(3){
+  width: 30%;
+}
+.city th {
+  font-family: 'Anton', sans-serif;
+  font-weight: 400;
+}
+
+.city th, .city td {
+  text-align: left;
+  vertical-align: top;
+  padding:  0.55rem 0.5rem 0.55rem 0;
+}
+
+@media (min-width: 768px) {
+  .section-title-municipalities { 
+    font-size: 2.5rem; 
+  }
+  .district-title { 
+  font-size: 1.6rem; 
+}
+  .city h3 { 
+    font-size: 1.3rem; 
+  }
+  .city table { 
+    font-size: 1rem; 
+  }
+}
+ 
+/* ---------- Desktop ---------- */
+@media (min-width: 1024px) {
+  .section-title-municipalities, .municipalities-description, .district {
+    margin-left: 60px;
+    margin-right: 4rem;
+  }
+  .city { 
+    padding-left: 60px; 
+  }
+}
+ 
 
 
 /* Advisory  bars/status */
@@ -418,7 +508,7 @@ header{
 }
 
 .advisory--normal {
-  background-color: #2e7d1e;
+  background-color: green;
 }
 
 .advisory--warning {
@@ -427,7 +517,7 @@ header{
 }
 
 .advisory--severe {
-  background-color: #8b1010;
+  background-color: red;
 }
 
 @media (min-width: 768px) {
