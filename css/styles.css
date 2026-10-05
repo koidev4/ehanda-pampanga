@@ -394,6 +394,7 @@ header{
   align-items: center;
   list-style: none;
   margin-top: 10px;
+  cursor: pointer;
 }
 
 .district-content {
@@ -480,7 +481,7 @@ header{
   }
 }
  
-/* ---------- Desktop ---------- */
+/* desktop styles */
 @media (min-width: 1024px) {
   .section-title-municipalities, .municipalities-description, .district {
     margin-left: 60px;
