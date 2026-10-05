@@ -289,6 +289,10 @@ header{
   display: block;
 }
 
+.contact-drrmo strong {
+  display: block;
+}
+
 
 @media (min-width: 768px) {
   .section-title {
@@ -301,11 +305,11 @@ header{
 
 @media (min-width: 1024px) {
   .what-is-eHanda {
-  padding: 1.5rem 1rem 1.5rem 3rem;
+  padding: 1.5rem 0 1.5rem 3rem;
 }
   .what-is-body {
   display: grid;
-  grid-template-columns: minmax(0, 100ch) 320px;
+  grid-template-columns: 1fr 320px;
   gap: 2rem;
   align-items: start;
   }
@@ -347,49 +351,6 @@ header{
 
 
 /* municipalites styles */
-<<<<<<< HEAD
-.district-title {
-  cursor: pointer;
-  list-style: none;
-  margin-top: 1rem;
-  padding: 0.5rem 1rem;
-  color: var(--blue);
-  font-family: 'Anton', sans-serif;
-  font-size: 1.5rem;
-}
-
-.district-content {
-  padding: 0.5rem 1rem;
-}
-
-.district { 
-  margin-bottom: 1rem; 
-}
-
-.city {
-  margin-left: 1.5rem;
-  margin-bottom: 1rem;
-  padding: 1rem;
-  color: var(--blue);
-  font-family: 'Anton', sans-serif;
-}
-
-.city-description {
-  margin: 0.5rem;
-  margin-left: 1rem;
-  color: var(--text);
-  padding-left: 5rem;
-  font-size: 1rem;
-  line-height: 1.5;
-}
-
-.evac {
-  padding-left: 1rem;
-  margin-left: 2rem;
-  color: grey;
-}
-=======
->>>>>>> 1304eb979b06703ef7c13e40f1e545620bab4ab7git
 
 .section-title-municipalities {
   font-family: 'Anton', sans-serif;
