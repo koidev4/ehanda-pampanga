@@ -590,7 +590,7 @@ header{
 
 /* Home Mobile viewport styles*/
 
-@media (min-width: 434px) and (max-width: 768px) {
+@media (min-width: 360px) and (max-width: 768px) {
 
   .hero {
     display: grid;
@@ -684,5 +684,16 @@ header{
   .contact-drrmo strong {
     display: block;
   }
+  /* nav wrap fix for mobile viewport (para hindi bumababa yung isang button)*/
+  .nav {
+    flex-wrap: nowrap;  
+    gap: 0.4rem;        
+  }
 
+  .nav-link {
+    white-space: nowrap;     
+    font-size: 0.72rem;      
+    padding: 0.35rem 0.6rem;  
+  }
 }
+
