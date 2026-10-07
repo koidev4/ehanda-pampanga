@@ -604,7 +604,8 @@ header{
 }
 
 .hazard-info {
-  width: 95ch;
+  max-width: 95ch;
+  width: 100%;
   margin: auto;
   line-height: 1.5;
   color: #444;
