@@ -514,7 +514,7 @@ header{
   vertical-align: top;
   padding:  0.55rem 0.5rem 0.55rem 0;
 }
-
+/* for municipalities */
 @media (min-width: 768px) {
   .district-title::after {
     width: 2.75rem;
@@ -542,7 +542,7 @@ header{
   }
 }
  
-/* desktop styles */
+/* desktop styles for municipalities */
 @media (min-width: 1024px) {
   .section-title-municipalities, .municipalities-description, .district {
     margin-left: 60px;
@@ -552,6 +552,172 @@ header{
     padding-left: 60px; 
   }
 }
+
+/* hazard guide styles */
+
+.hazard {
+  --accent: var(--blue);
+  margin: 0 2.5rem;
+}
+.hazard.typhoon    { 
+  --accent: #0a74e6; 
+}
+.hazard.earthquake { 
+  --accent: #f08a00; 
+}
+.hazard.flood      { 
+  --accent: #2e8b1e; 
+}
+.hazard.fire       { 
+  --accent: #8b1010; 
+}
+
+
+.section-title-hazard {
+  font-family: 'Anton', sans-serif;
+  font-weight: 400;
+  margin: 0.5rem 2rem;
+  font-size: 2rem;
+}
+
+.hazard-description {
+  max-width: 95ch;
+  line-height: 1.5;
+  margin: 2.5rem 2rem;
+}
+
+.hazard-description a, .hazard-col a {
+  color: var(--blue);
+  font-weight: bold;
+}
+
+.hazard-title {
+  color: var(--accent);
+  font-family: 'Anton', sans-serif;
+  font-weight: 400;
+  font-size: 1.4rem;
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  margin-bottom: 0.75rem;
+  margin-top: 2.5rem;
+}
+
+.hazard-info {
+  width: 95ch;
+  margin: auto;
+  line-height: 1.5;
+  color: #444;
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.hazard-columns {
+  display: grid;
+  gap: 1.25rem;
+}
+
+.hazard-col h4 {
+  color: var(--accent);
+  font-family: 'Fredoka', sans-serif;
+  font-weight: 700;
+  text-transform: uppercase;
+  margin: 0 0 0.5rem;
+  font-size: 1.2rem;
+}
+
+.hazard-col ul {
+  padding-left: 1.25rem;
+  margin: 0;
+
+}
+
+.hazard-col li {
+  font-size: 0.95rem;
+  line-height: 1.4;
+  color: #444;
+  margin-bottom: 0.4rem;
+
+
+}
+
+.back-to-top {
+  text-align: center;
+  margin: 0 0 0.5rem;
+  margin-top: 3.5rem;
+  border: 2px solid var(--blue);
+  width: fit-content;
+  padding: 15px;
+  border-radius: 999px;
+}
+
+.back-to-top a {
+  text-decoration: none;
+  color: var(--blue);
+  font-weight: 400;
+  font-size: 1rem;
+}
+
+.divider {
+  width: 100%;
+  height: 2px;
+  background: var(--text);
+}
+
+/* tablet viewport for hazards*/
+
+@media (min-width: 768px) {
+  .section-title-hazard { 
+    font-size: 2.5rem; 
+  }
+  .hazard-title { 
+    font-size: 1.8rem; 
+  }
+ 
+  .hazard-summary {
+    text-align: center;
+    max-width: 75ch;
+    margin: 0 auto 1.5rem;
+  
+  }
+ 
+  .hazard-columns {
+    gap: 1.5rem;
+    grid-template-columns: repeat(3, 1fr);
+  }
+ 
+  .hazard-col h4 { 
+    text-align: center; 
+  }
+}
+
+/* desktop viewport hazards */
+
+@media (min-width: 1024px) {
+  .section-title-hazard, .hazard-description, .hazard {
+    margin-left: 4rem;
+    margin-right: 4rem;
+  }
+ 
+  .hazard-columns {
+    gap: 2.5rem;
+    max-width: 1000px;
+    margin: 0 auto;
+  }
+}
+
+ 
+
+
+
+
+
+
+
+
+
+
+
  
 
 
