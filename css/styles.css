@@ -643,12 +643,14 @@ header{
 
 .back-to-top {
   text-align: center;
-  margin: 0 0 0.5rem;
+  margin: auto;
   margin-top: 3.5rem;
   border: 2px solid var(--blue);
   width: fit-content;
   padding: 15px;
   border-radius: 999px;
+  display: flex;
+  justify-content: center;
 }
 
 .back-to-top a {
