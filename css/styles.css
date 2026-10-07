@@ -576,14 +576,14 @@ header{
 .section-title-hazard {
   font-family: 'Anton', sans-serif;
   font-weight: 400;
-  margin: 0.5rem 2rem;
   font-size: 2rem;
+  margin: 1rem 1rem;
 }
 
 .hazard-description {
-  max-width: 95ch;
-  line-height: 1.5;
-  margin: 2.5rem 2rem;
+  max-width: 100%;
+  line-height: 1rem;
+  margin: 0 1.5rem;
 }
 
 .hazard-description a, .hazard-col a {
