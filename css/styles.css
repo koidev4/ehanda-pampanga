@@ -712,6 +712,69 @@ header{
 
  
 
+/* styles for checklists */
+
+.section-title-checklist {
+  font-family: 'Anton', sans-serif;
+  font-size: 2rem;
+  font-weight: 400;
+  margin: 1rem 1rem;
+}
+
+.checklist-description {
+
+  max-width: 100%;
+  line-height: 1rem;
+  margin: 0 1.5rem;
+}
+
+.checklist-description a, .checklist-note a {
+  color: var(--blue);
+  font-weight: bold;
+}
+
+.instructions {
+  margin: 0 2rem;
+  text-align: center;
+}
+
+.instructions-label {
+  font-family: 'Fredoka', sans-serif;
+  font-weight: 700;
+  font-size: 1.2rem;
+  display: inline-block;
+  padding: 0.5rem 2.5rem;
+  
+  background: var(--blue);
+  color: #fff;
+  box-shadow: 0 3px 5px rgba(0, 0, 0, 0.25);
+  border-radius: 999px;
+  margin-top: 2rem;
+}
+
+.instructions p {
+  margin: 0.75rem 0 0;
+  color: #555;
+  font-size: 0.9rem;
+}
+
+
+.checklist-header {
+  font-family: 'Anton', sans-serif;
+  font-size: 1.6rem;
+  font-weight: 700;
+  margin: 0 0 1rem;
+  color: var(--blue);
+}
+
+.checklist-columns {
+  display: grid;
+  gap: 2rem;
+  margin: 0;
+  
+}
+
+
 
 
 
