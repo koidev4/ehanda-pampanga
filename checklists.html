@@ -46,9 +46,8 @@
     <div class="checklist-columns">
       <section class="checklist-box">
         <h3 class="checklist-header">Bag/Kit to Go</h3>
-        <ul>
-          <li><label class="check"><input type="checkbox"><span>Drinking water (at least 1 gal./person for 3 days)</span></label></li>
-          <li><label class="check"><input type="checkbox"><span>Ready to eat food, 3 day supply</span></input></label></li>
+        <ul class="checklist-items">
+          <li><label class="check"><input type="checkbox"><span>Ready to eat food and water, 3 day supply</span></input></label></li>
           <li><label class="check"><input type="checkbox"><span>Flashlight with extra batteries</span></input></label></li>
           <li><label class="check"><input type="checkbox"><span>Battery powered or hand crank radio</span></input></label></li>
           <li><label class="check"><input type="checkbox"><span>First aid kit and personal medication</span></input></label></li>
@@ -61,17 +60,17 @@
           <li><label class="check"><input type="checkbox"><span>Copies of ID and important documents</span></input></label></li> 
           <li><label class="check"><input type="checkbox"><span>Waterproof Bag</span></input></label></li> 
         </ul>
-        <div class="add-own">
-          <p>Add your own:</p>
-          <span class="add-own-line"></span>
-          <span class="add-own-line"></span>
-        </div>
+          <div class="add-own">
+            <p>Add your own:</p>
+            <input type="text" class="add-own-line" aria-label="Add your own item 1">
+            <input type="text" class="add-own-line" aria-label="Add your own item 2">
+          </div>
       </section>
       <!-- end of kit bag checklist -->
       <!-- household checklist -->
        <section class="checklist-box">
         <h3 class="checklist-header">Household Prepareness</h3>
-        <ul>
+        <ul class="checklist-items">
           <li><label class="check"><input type="checkbox"><span>Household emergency contact list posted at home</span></input></label></li> 
           <li><label class="check"><input type="checkbox"><span>Fire extinguisher, checked and accessible</span></input></label></li> 
           <li><label class="check"><input type="checkbox"><span>Emergency water storage containers and filled</span></input></label></li> 
@@ -87,9 +86,9 @@
         </ul>
           <div class="add-own">
             <p>Add your own:</p>
-            <span class="add-own-line"></span>
-            <span class="add-own-line"></span>
-        </div>
+            <input type="text" class="add-own-line" aria-label="Add your own item 1">
+            <input type="text" class="add-own-line" aria-label="Add your own item 2">
+          </div>
        </section>
        <!-- end of household preparedness checlst -->
     </div>
@@ -104,12 +103,12 @@
       <p class="family-plan-intro">Fill this in by hand and keep a copy in your go-bag, wallet, or on the fridge.</p>
 
       <div class="plan-rows">
-        <div class="plan-row"><span>Family meeting point:</span><span class="plan-line"></span></div>
-        <div class="plan-row"><span>Out-of town contact (name &amp; number):</span><span class="plan-line"></span></div>
-        <div class="plan-row"><span>Nearest evacuation center:</span><span class="plan-line"></span></div>
-        <div class="plan-row"><span>Household member responsible for go-bag:</span><span class="plan-line"></span></div>
-        <div class="plan-row"><span>Household member responsible for pets/elderly/PWD:</span><span class="plan-line"></span></div>
-        <div class="plan-row"><span>Household member responsible for documents:</span><span class="plan-line"></span></div>
+        <div class="plan-row"><span>Family meeting point:</span><input type="text" class="plan-line" aria-label="Family meeting point"></div>
+        <div class="plan-row"><span>Out of town contact(name &amp; number):</span><input type="text" class="plan-line" aria-label="Family meeting point"></div>
+        <div class="plan-row"><span>Nearest evacuation center:</span><input type="text" class="plan-line" aria-label="Family meeting point"></div>
+        <div class="plan-row"><span>Household member responsible for go-bag/first aid kit:</span><input type="text" class="plan-line" aria-label="Family meeting point"></div>
+        <div class="plan-row"><span>Household member responsible for pets/elderly/PWD:</span><input type="text" class="plan-line" aria-label="Family meeting point"></div>
+        <div class="plan-row"><span>Household member responsible for food and water: </span><input type="text" class="plan-line" aria-label="Family meeting point"></div>
       </div>
 
       <p class="checklist-note">Print this section and fold to wallet or fridge size because it is intentionally short so it still fits on a small card.</p>

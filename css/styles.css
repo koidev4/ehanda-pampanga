@@ -763,7 +763,7 @@ header{
   font-family: 'Anton', sans-serif;
   font-size: 1.6rem;
   font-weight: 700;
-  margin: 0 0 1rem;
+  margin: 2rem 1rem;
   color: var(--blue);
 }
 
@@ -773,6 +773,182 @@ header{
   margin: 0;
   
 }
+
+.checklist-items {
+  margin: 2rem;
+  padding: 0;
+  list-style: none;
+}
+
+
+
+.checklist-items li {
+  margin-bottom: 0.6rem;
+
+}
+
+.checklist-box {
+  min-width: 0;
+}
+
+.check {
+  align-items: flex-start;
+  gap: 0.75rem;
+  line-height: 1.3;
+  display: flex;
+  cursor: pointer;
+}
+
+.check input {
+  border: 2px solid black;
+  border-radius: 6px;
+  background-color: white;
+  height: 1.3rem;
+  width: 1.3rem;
+  display: grid;
+  place-items: center;
+  margin: 0;
+  flex-shrink: 0;
+  cursor: pointer;
+}
+
+.add-own {
+  margin-top: 1.25rem;
+}
+
+.add-own p {
+  margin: 0;
+  margin-left: 2rem;
+
+}
+
+
+.add-own-line {
+  font: inherit;
+  color: black;
+  display: block;
+  width: 100%;
+  max-width: 35ch;
+  height: 2rem;
+  padding: 0 0.25rem;
+  border: 0;
+  border-bottom: 1.5px solid #111;
+  border-radius: 0;
+  margin-left: 2rem;
+}
+
+.add-own-line:focus {
+  outline: none;
+  border-bottom-color: var(--blue);
+  box-shadow: 0 2px 0 var(--blue);
+}
+
+.checklist-note {
+  max-width: 70ch;
+  width: 100%;
+  text-align: center;
+  margin: 1.5rem auto 0;
+  padding: 0;
+  text-align: center;
+  color: #444;
+  line-height: 1.5;
+}
+
+.family-plan {
+  margin: 3rem 0;
+
+}
+
+.family-plan-title {
+  text-align: center;
+  font-family: 'Fredoka', sans-serif;
+  font-size: 1.8rem;
+  font-weight: 700;
+  margin: 0;
+  text-transform: uppercase;
+}
+
+.family-plan-intro {
+  text-align: center;
+  margin: 0.25rem 0 1.5rem;
+
+}
+.plan-rows {
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.plan-row {
+  display: flex;
+  margin-bottom: 1.5rem;
+  line-height: 1.3;
+  align-items: flex-end;
+  gap: 0.5rem;
+  margin-left: 2rem;
+  margin-right: 2rem;
+}
+
+.plan-row span:first-child {
+  max-width: 60%;
+  flex-shrink: 0;
+}
+
+.plan-line {
+  border: 0;
+  border-bottom: 1.5px solid black;
+  padding: 0 0.25rem;
+  font: inherit;
+  color: #111;
+  border-radius: 0;
+  min-width: 3rem;
+  flex: 1;
+ 
+}
+
+.plan-line:focus {
+  outline: none;
+  border-bottom-color: var(--blue);
+  box-shadow: 0 2px 0 var(--blue);
+}
+
+
+/* tableyt viewport checklists*/
+
+@media (min-width: 768px) {
+  .section-title-checklist { 
+    font-size: 2.5rem; 
+  }
+
+  .checklist-columns {
+    grid-template-columns: 1fr 1fr;
+    gap: 3rem;
+  }
+}
+
+/* desktop viewport checklists */
+@media (min-width: 1024px) { .section-title-checklist, .checklist-description, .instructions, .checklist-columns, .family-plan {
+    
+  margin-left: 4rem;
+  margin-right: 4rem;
+  }
+ 
+  .checklist-columns {
+    max-width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+
+  }
+}
+
+
+
+
+
+
+
+
+
+
 
 
 
