@@ -942,28 +942,6 @@ header{
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
- 
-
-
 /* Advisory  bars/status */
 
 .advisory {
@@ -1106,3 +1084,67 @@ header{
   }
 }
 
+
+
+/* print media queries all */
+@media print {
+  * {
+    box-shadow: none !important;
+    text-shadow: none !important;
+  }
+  body {
+    background: #fff;
+    color: #000;
+  }
+
+  .nav, .button, .hero-more, .back-to-top {
+    display: none;
+  }
+
+  .advisory {
+    display: none;
+  }
+
+  .hero {
+    display: block;
+    margin: 0;
+  }
+
+  .hero-image {
+    -webkit-mask-image: none;
+    mask-image: none;
+    min-height: 0;
+    padding: 0;
+    background: none;
+
+
+  }
+  .hero-tagline {
+    color: #000;
+    max-width: none;
+
+  }
+  .hero-about {
+    padding: 0;
+  }
+  .hero-about p {
+    color: #000;
+  }
+
+
+
+
+  .district-title::after {
+    display: none;
+  }
+
+  .city, .hazard, .family-plan {
+    break-inside: avoid;
+
+  }
+
+  .checklist-columns {
+    gap: 1.5rem;
+    grid-template-columns: 1fr 1fr;
+  }
+}

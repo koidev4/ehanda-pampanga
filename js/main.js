@@ -7,7 +7,7 @@ function saveChecklist() {
     if (entries[i].type === 'checkbox') {
       values.push(entries[i].checked);
     } else {
-      values.push(entries[i].value)
+      values.push(entries[i].value);
     }
   }
 
@@ -19,7 +19,7 @@ function saveChecklist() {
 function refreshChecklist() {
   const savedText = localStorage.getItem('ehanda-checklist');
   if (savedText === null){
-    return
+    return;
   }
 
   const values = JSON.parse(savedText);
