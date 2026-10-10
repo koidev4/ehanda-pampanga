@@ -4,8 +4,8 @@ A disaster-preparedness mock-up website for Pampanga province. it provides resid
 
 > **Note:** This is an academic project (WD - 201). It is **not** an official government system. All evacuation centers, capacities, contacts, and advisory statuses are **sample data** for demonstration only.
 
-**Live site:** https://koidev4.github.io/ehanda-pampanga/*
-**Vercel Link:** https://ehanda-pampanga.vercel.app/*
+**Live site:** https://koidev4.github.io/ehanda-pampanga/\
+**Vercel Link:** https://ehanda-pampanga.vercel.app/
 
 ## Pages
 Home, Municipalities, Hazard Guides, Kit & Checklists
